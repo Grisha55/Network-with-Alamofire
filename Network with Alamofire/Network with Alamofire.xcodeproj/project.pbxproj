@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A1B8EC05A3862865708CB783 /* Pods_Network_with_Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDBD6D0C525440642D774E8 /* Pods_Network_with_Alamofire.framework */; };
+		BE241789285CF36700650FE5 /* PostStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE241788285CF36700650FE5 /* PostStruct.swift */; };
 		BEBE8F98285CCE2F002816FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE8F97285CCE2F002816FC /* AppDelegate.swift */; };
 		BEBE8F9A285CCE2F002816FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE8F99285CCE2F002816FC /* SceneDelegate.swift */; };
 		BEBE8F9C285CCE2F002816FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE8F9B285CCE2F002816FC /* ViewController.swift */; };
 		BEBE8FA1285CCE33002816FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBE8FA0285CCE33002816FC /* Assets.xcassets */; };
 		BEBE8FA4285CCE33002816FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE8FA2285CCE33002816FC /* LaunchScreen.storyboard */; };
+		BEBE8FAC285CE9BB002816FC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE8FAB285CE9BB002816FC /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A936F7FD1F66D7427AEED1B4 /* Pods-Network with Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network with Alamofire.release.xcconfig"; path = "Target Support Files/Pods-Network with Alamofire/Pods-Network with Alamofire.release.xcconfig"; sourceTree = "<group>"; };
 		B5F52F57EE0F0C22C1F54F20 /* Pods-Network with Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network with Alamofire.debug.xcconfig"; path = "Target Support Files/Pods-Network with Alamofire/Pods-Network with Alamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		BE241788285CF36700650FE5 /* PostStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostStruct.swift; path = "/Users/grigorijvinar/Desktop/Weather-App-main/Network-with-Alamofire/Network with Alamofire/Network with Alamofire/PostStruct.swift"; sourceTree = "<absolute>"; };
 		BEBE8F94285CCE2F002816FC /* Network with Alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network with Alamofire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE8F97285CCE2F002816FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEBE8F99285CCE2F002816FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		BEBE8FA0285CCE33002816FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBE8FA3285CCE33002816FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEBE8FA5285CCE33002816FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBE8FAB285CE9BB002816FC /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		DDDBD6D0C525440642D774E8 /* Pods_Network_with_Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Network_with_Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,7 +50,6 @@
 				B5F52F57EE0F0C22C1F54F20 /* Pods-Network with Alamofire.debug.xcconfig */,
 				A936F7FD1F66D7427AEED1B4 /* Pods-Network with Alamofire.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -74,6 +77,8 @@
 				BEBE8F97285CCE2F002816FC /* AppDelegate.swift */,
 				BEBE8F99285CCE2F002816FC /* SceneDelegate.swift */,
 				BEBE8F9B285CCE2F002816FC /* ViewController.swift */,
+				BE241788285CF36700650FE5 /* PostStruct.swift */,
+				BEBE8FAB285CE9BB002816FC /* Service.swift */,
 				BEBE8FA0285CCE33002816FC /* Assets.xcassets */,
 				BEBE8FA2285CCE33002816FC /* LaunchScreen.storyboard */,
 				BEBE8FA5285CCE33002816FC /* Info.plist */,
@@ -204,8 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBE8F9C285CCE2F002816FC /* ViewController.swift in Sources */,
+				BEBE8FAC285CE9BB002816FC /* Service.swift in Sources */,
 				BEBE8F98285CCE2F002816FC /* AppDelegate.swift in Sources */,
 				BEBE8F9A285CCE2F002816FC /* SceneDelegate.swift in Sources */,
+				BE241789285CF36700650FE5 /* PostStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/grigorijvinar/Desktop/Weather-App-main/Network-with-Alamofire/Network with Alamofire/Network with Alamofire/PostStruct.swift">
+   </FileRef>
+   <FileRef
       location = "group:Network with Alamofire.xcodeproj">
    </FileRef>
    <FileRef
